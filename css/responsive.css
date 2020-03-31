@@ -1,0 +1,195 @@
+@media only screen and (max-width: 1100px) {
+	.contact-details {
+		padding: 0 6rem;
+		text-align: left;
+	}
+}
+
+
+@media only screen and (max-width: 1040px) {
+	.style {
+		padding: 4rem 7rem;
+		text-align: center;
+	}
+	header {
+		padding: 0 7rem;
+	}
+	.hero.style {
+		padding: 4rem 7rem;
+	}
+	.style p {
+		padding: 0 150px;
+		margin-bottom: 5rem;
+	}
+	.contact-details {
+		padding: 0 4rem;
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.style {
+		padding: 3rem 5rem;
+		text-align: center;
+	}
+	header {
+		padding: 0 5rem;
+	}
+	.hero.style {
+		padding: 3rem 5rem;
+	}
+	.rose {
+		position: absolute;
+		left: 8rem;
+		top: -3rem;
+	}
+	.home {
+		margin-bottom: 5rem;
+	}
+	.style p {
+		padding: 0 100px;
+		margin-bottom: 5rem;
+	}
+	.profile {
+		background: #fff;
+		position: absolute;
+		bottom: -50px;
+		left: 0;
+		transform: translate(0);
+		width: 100%;
+		box-sizing: border-box;
+		box-shadow: 0 5px 20px #ddd;
+		padding: 20px;
+		transition: all 300ms ease-in-out;
+	}
+	.row.appointment-row {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	.col-lg-5 {
+		display: none;
+	}
+	#fs-frm {
+		padding: 60px;
+	}
+	.contact-details {
+		padding: 0 2rem;
+		text-align: left;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	.style {
+		padding: 3rem 2rem;
+		text-align: center;
+	}
+	header {
+		padding: 0rem 2rem;
+	}
+	.hero.style {
+		padding: 3rem 2rem;
+	}
+	.banner-img {
+		display: none;
+	}
+	.nav-list li {
+		display: none;
+	}
+	.nav-list li:nth-child(6) {
+		display: block;
+	}
+	.bar {
+		display: block;
+		float: right;
+	}
+	.rose {
+		position: absolute;
+		left: 5rem;
+		top: -3rem;
+	}
+	.leaf {
+		display: none;
+	}
+	.jasmine {
+		display: none;
+	}
+	.hero h1 {
+		font-size: 5rem;
+	}
+	.style p {
+		padding: 0 50px;
+		margin-bottom: 5rem;
+	}
+	.service1 {
+		padding: 20px;
+		margin: 20px 120px;
+	}
+	.team1 {
+		margin: 4rem 12rem;
+	}
+	#fs-frm {
+		padding: 30px;
+	}
+	.contact-details {
+		padding: 0 10rem;
+		text-align: left;
+	}
+	.navbar-nav {
+		background: #fff9f8;
+		margin: 0 !important;
+		margin-left: 0 !important;
+		text-align: center;
+		padding: 10px;
+	}
+	.navbar-nav li {
+		padding: 10px 0;
+	}
+	
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.style {
+		padding: 2rem 1rem;
+		text-align: center;
+	}
+	header {
+		padding: 0rem 1rem;
+	}
+	.hero.style {
+		padding: 2rem 1rem;
+	}
+	.hero h1 {
+		font-size: 4rem;
+	}
+	.style p {
+		padding: 0 20px;
+		margin-bottom: 5rem;
+	}
+	.service1 {
+		padding: 20px;
+		margin: 20px 50px;
+	}
+	.service1 {
+		margin: 40px 50px;
+	}
+	#fs-frm {
+		padding: 10px;
+	}
+	.contact-details {
+		padding: 0 5rem;
+		text-align: left;
+	}
+	.team1 {
+		margin: 4rem 6rem;
+	}
+}
+
+
+
+@media only screen and (max-width: 500px) {
+	
+}
