@@ -17,7 +17,11 @@
         <link rel="stylesheet" href="css/style.css">   <!--animated headline css -->
         <link rel="stylesheet" href="css/magnific-popup.css">     <!--magnific css -->
 	</head>
-	<body>
+	<body onload="myFunction()">
+
+		<!-- loader -->
+  		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
 		<!-- Header Section Start-->
 
 		<div class="home">
@@ -440,6 +444,7 @@
 	
 	<!-- All js file -->
 		<script src="js/jquery-3.4.1.js"></script>
+		<script src="js/preloader.js"></script>
 		<!-- js for browser support -->
 		<script src="js/html5shiv.min.js"></script>
 		<script src="js/respond.min.js"></script>
@@ -460,18 +465,4 @@
 		<script src="js/aos.js"></script>
 		<script src="js/main.js"></script>
 	</body>
-	<div class="pre-loader">
-		<div class="loader-position">
-			<div class="absolute">
-				<div class="loader">
-					<div class="loader__bar"></div>
-					<div class="loader__bar"></div>
-					<div class="loader__bar"></div>
-					<div class="loader__bar"></div>
-					<div class="loader__bar"></div>
-					<div class="loader__ball"></div>
-				</div>
-			</div>
-		</div>
-	</div>
 </html>
