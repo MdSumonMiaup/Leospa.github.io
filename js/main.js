@@ -4,14 +4,14 @@ $(document).ready(function () {
 });
 
 
+var loader = function() {
+		setTimeout(function() { 
+			if($('#ftco-loader').length > 0) {
+				$('#ftco-loader').removeClass('show');
+			}
+		}, 1);
+	};
+	loader();
 
 
-(function($){
-  'use strict';
-    $(window).on('load', function () {
-        if ($(".pre-loader").length > 0)
-        {
-            $(".pre-loader").fadeOut("slow");
-        }
-    });
-})(jQuery)
+
