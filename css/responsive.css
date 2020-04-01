@@ -25,6 +25,10 @@
 		padding: 0 4rem;
 		text-align: left;
 	}
+	.style h2 {
+		font-size: 4rem;
+		margin-bottom: 2.5rem;
+	}
 }
 
 @media only screen and (max-width: 992px) {
@@ -45,6 +49,9 @@
 	}
 	.home {
 		margin-bottom: 5rem;
+	}
+	.style h2 {
+		font-size: 3rem;
 	}
 	.style p {
 		padding: 0 100px;
@@ -76,6 +83,15 @@
 		padding: 0 2rem;
 		text-align: left;
 	}
+	.navbar-nav {
+		margin-top: 25px;
+		z-index: 1;
+		position: relative;
+		margin-left: auto;
+	}
+	.client1 h2 {
+		font-size: 2rem !important;
+	}
 }
 
 
@@ -93,16 +109,6 @@
 	}
 	.banner-img {
 		display: none;
-	}
-	.nav-list li {
-		display: none;
-	}
-	.nav-list li:nth-child(6) {
-		display: block;
-	}
-	.bar {
-		display: block;
-		float: right;
 	}
 	.rose {
 		position: absolute;
@@ -123,11 +129,10 @@
 		margin-bottom: 5rem;
 	}
 	.service1 {
-		padding: 20px;
-		margin: 20px 120px;
+		margin: 1rem 20%;
 	}
 	.team1 {
-		margin: 4rem 12rem;
+		margin: 5rem 20%;
 	}
 	#fs-frm {
 		padding: 30px;
@@ -136,17 +141,16 @@
 		padding: 0 10rem;
 		text-align: left;
 	}
-	.navbar-nav {
-		background: #fff9f8;
-		margin: 0 !important;
-		margin-left: 0 !important;
-		text-align: center;
-		padding: 10px;
+	.navbar-nav li a {
+		font-size: 1.6rem;
+		padding: 0 15px !important;
 	}
-	.navbar-nav li {
-		padding: 10px 0;
+	.container {
+		max-width: 100% !important;
 	}
-	
+	.nav-list li {
+		display: none;
+	}
 }
 
 
@@ -169,13 +173,6 @@
 		padding: 0 20px;
 		margin-bottom: 5rem;
 	}
-	.service1 {
-		padding: 20px;
-		margin: 20px 50px;
-	}
-	.service1 {
-		margin: 40px 50px;
-	}
 	#fs-frm {
 		padding: 10px;
 	}
@@ -183,13 +180,55 @@
 		padding: 0 5rem;
 		text-align: left;
 	}
-	.team1 {
-		margin: 4rem 6rem;
-	}
+	
 }
 
 
 
+@media only screen and (max-width: 576px) {
+	.navbar-nav {
+		background: #fff9f8;
+		margin: 0 !important;
+		margin-left: 0 !important;
+		text-align: center;
+		padding: 10px;
+	}
+	.navbar-nav li {
+		padding: 10px 0;
+	}
+	.f1 {
+		margin: 1rem 15%;
+	}
+	.service1 {
+		margin: 1rem 15%;
+	}
+	.team1 {
+		margin: 5rem 15%%;
+	}
+	.contact-details {
+		padding: 0 15%;
+	}
+}
+
+
 @media only screen and (max-width: 500px) {
-	
+	.contact-details {
+		padding: 0 10%;
+	}
+}
+
+
+@media only screen and (max-width: 460px) {
+	.f1 {
+		margin: 1rem 5%;
+	}
+	.service1 {
+		margin: 1rem 5%;
+	}
+	.team1 {
+		margin: 5rem 5%;
+	}
+	.contact-details {
+		padding: 0 5%;
+	}
 }
